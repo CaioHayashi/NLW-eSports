@@ -53,7 +53,7 @@ header img {
 }
 
 main {
-	max-width: 580px;
+	max-width: 700px;
 	width: 90%;
 
 	margin: 32px auto;
@@ -101,7 +101,7 @@ section li:hover {
 }
 
 .games img {
-	width: 90px;
+	width: 135px;
 	border-radius: 9px;
 	box-shadow: 0px 5px 5px #121214a5;
 }
@@ -153,5 +153,18 @@ main section:nth-child(3) {
 	to {
 		opacity: 1;
 		transform: translateX(0);
+	}
+}
+
+/* mobile */
+
+@media screen and (max-width: 450px) {
+	header div {
+		width: 90px;
+		height: 90px;
+	}
+
+	.games img {
+		width: 120px;
 	}
 }
